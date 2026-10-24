@@ -1,0 +1,32 @@
+{
+  "kind": "report_build",
+  "scope": "Document provenance; experiment manifests remain authoritative",
+  "inputs": {
+    "reports/examples/contract-review/hedging/metrics.csv": "ae8da7c2a6d0c22d50c50c3ffe7259628066ec5e7ddd26c9edd498b4c2e495eb",
+    "reports/examples/contract-review/hedging/summary.json": "644340a27a5ee415b7acebb97434d21a4dfd44e7ec75c293505e2e48c761bd18",
+    "reports/examples/contract-review/monte-carlo/estimates.csv": "f12d12dd750c5f488921be0c36ba40791029407d669f83d52e92f3f8ea6ea151",
+    "reports/examples/contract-review/monte-carlo/metrics.csv": "f91c30cff36c0959f10c5fe50d9edf39ff9eb467bf5b770c80dfef6eb0964ec7",
+    "reports/examples/contract-review/monte-carlo/summary.json": "d9cb0b057e007d6e560e478dc4fd68b5a449e7448cfe0aa8c60b6d0f9c00f5b4",
+    "reports/examples/contract-review/pricing/baseline.csv": "35a5791f422444264bbd61be7dca9419d402e0cf56bb2602e214b2416da09f54",
+    "reports/examples/milestone-2b/accuracy.png": "0c97fa27cbff49f7612c7bba973044bfd91045ee4935ffb3ba397b51d5db8d10",
+    "reports/examples/milestone-2b/engineering.png": "6b3de4808105ad749d034e2cd5b2fbb97d2309a49011604638f27449bfba3dd6",
+    "reports/examples/milestone-2b/summary.json": "61f9362c15443810d7bbd6459afb39a15ef604636d8dc77254853cec2adb3b27",
+    "reports/examples/milestone-5/manifest.json": "b866edd450ce740022e9b312067483b2513596d802644d21a99142f1a6e7dad7",
+    "reports/examples/milestone-5/metrics.csv": "ac86a0cb49a9b4e4a4f1c9624e8f371279f27d3168a01288670a33cd337d5e37",
+    "reports/examples/milestone-5/paired_comparisons.csv": "69ac29c0cc291dc8b388ea5d904e98fab21460015ebdf7c7b23ad5e7744b3606",
+    "reports/examples/milestone-5/risk_and_cost.png": "a86cfb0dce8f453dd5faca1f29377b9feded503bc3e7d66564cc21e7cf985cd0",
+    "reports/examples/milestone-5/scenarios.csv": "e0c466531f80662e46bdd2c401ff5f78169b5c1ffa30252a2765ab1813a02c13",
+    "reports/examples/milestone-5/summary.json": "5152882bcff5b067ed4fad9f5f63ecd0b89b8d6575ecf7452b929d9ed910a20f",
+    "reports/examples/milestone-5/volatility_and_premium.png": "83729adb62e3c26841ccda3c2f73654759bfdcb157fa5436a8bccb12af055bbd",
+    "reports/examples/research-validation/calibration.png": "73dd16f832de79c09c8a4b4bbb0b70fc8dfbad858eb678dccc5537e14c020d62",
+    "reports/examples/research-validation/summary.json": "a08c58f844a5cddcd0ca060d2a2e74b0ea3367e6395b410379e7751d89078d71",
+    "reports/verification/contract-review-replay.json": "265a2b8d652d963c97b91616eba50e39d0e74f539958d0da7f59852ff780ae7a",
+    "reports/verification/final-report-evidence.json": "9e256fd28a528280429eda8d132e0505b3b2af3dbae8a9ded98290dc6677f56f",
+    "reports/verification/milestone-5-replay.json": "be8579fd93c12de1c34bed8c5ad7dc4f04692a1e8c77001548541ad4a02bd5b7"
+  },
+  "generator_sha256": "1b66abe3c16e06427eead7a957b5c4b2206c90765421d1b1373c2490f9c4e319",
+  "outputs": {
+    "output/pdf/option_pricing_hedging_research_report.pdf": "71f52b85887d55a4c4036c03d15f13e93469f68bc04d850ee2a7e7e4e7190479",
+    "reports/final/research_report.md": "d356aeb5a890ed90074b961342128409c088830ee7d9b1ad082161fea1288bc0"
+  }
+}

@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.env
+reports/runs/*
+!reports/runs/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Local work and repeated source recovery; canonical evidence stays tracked.
+/tmp/
+/reports/verification/asian-execution/*
+!/reports/verification/asian-execution/review-findings.md
+!/reports/verification/asian-execution/final-fix-green.log
+!/reports/verification/asian-execution/final-sha256.json
+.env.*
+!.env.example

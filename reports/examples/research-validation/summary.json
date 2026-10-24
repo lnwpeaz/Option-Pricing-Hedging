@@ -1,0 +1,43 @@
+{
+  "scenario_count": 144,
+  "analytic_absolute_tolerance": 1e-07,
+  "max_analytic_quadrature_difference": 1.5631940186722204e-13,
+  "max_quadrature_error_estimate": 6.288758095228545e-11,
+  "max_tail_bound": 4.532967387775893e-31,
+  "analytic_checks_passed": true,
+  "tree_rejected_grid_count": 0,
+  "mc_zero_se_cells": 74,
+  "uncertainty_floor": 1e-10,
+  "methods": {
+    "plain": {
+      "cells": 144,
+      "regular_cells": 120,
+      "regular_median_coverage": 0.96875,
+      "zero_se_cells": 24,
+      "zero_se_repeats": 705,
+      "below_floor_cells": 0,
+      "zero_se_nonzero_reference_repeats": 577,
+      "uncovered_above_precision_floor": 409
+    },
+    "antithetic": {
+      "cells": 144,
+      "regular_cells": 119,
+      "regular_median_coverage": 0.9375,
+      "zero_se_cells": 25,
+      "zero_se_repeats": 694,
+      "below_floor_cells": 0,
+      "zero_se_nonzero_reference_repeats": 566,
+      "uncovered_above_precision_floor": 415
+    },
+    "control": {
+      "cells": 144,
+      "regular_cells": 99,
+      "regular_median_coverage": 0.9375,
+      "zero_se_cells": 25,
+      "zero_se_repeats": 698,
+      "below_floor_cells": 20,
+      "zero_se_nonzero_reference_repeats": 570,
+      "uncovered_above_precision_floor": 574
+    }
+  }
+}

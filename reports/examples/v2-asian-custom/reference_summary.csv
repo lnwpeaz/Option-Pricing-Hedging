@@ -1,0 +1,2 @@
+contract_id,fixing_count,strike,price,precision_radius,precision_kind,status,diagnostics,is_exact
+c000,3,125.0,,,unavailable,unavailable,"[""external fixing dates do not match ACT/365F contract times""]",False

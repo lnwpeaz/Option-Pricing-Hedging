@@ -1,0 +1,85 @@
+{
+  "scope": "Trusted local archived-source replay in current recorded environment",
+  "runs": {
+    "pricing": {
+      "package_origin": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/contract-review-source-replay/pricing/src/option_hedging/__init__.py",
+      "artifact_integrity": {
+        "config_integrity": true,
+        "artifact_integrity": true,
+        "artifact_count": 6,
+        "source_recoverable": true,
+        "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+      },
+      "comparisons": {
+        "baseline.csv": {
+          "identical_bytes": true,
+          "sha256": "35a5791f422444264bbd61be7dca9419d402e0cf56bb2602e214b2416da09f54"
+        },
+        "spot_sensitivity.csv": {
+          "identical_bytes": true,
+          "sha256": "11db510e15b9bda7b6ee3c1480fe48a217f50cc8e441aabe1c9a22ddc950ae6b"
+        },
+        "volatility_sensitivity.csv": {
+          "identical_bytes": true,
+          "sha256": "22ca285ab190139713643789306df4259ea5ef6e7b1456233fb2a9951065663c"
+        }
+      }
+    },
+    "hedging": {
+      "package_origin": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/contract-review-source-replay/hedging/src/option_hedging/__init__.py",
+      "artifact_integrity": {
+        "config_integrity": true,
+        "artifact_integrity": true,
+        "artifact_count": 18,
+        "source_recoverable": true,
+        "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+      },
+      "comparisons": {
+        "scenarios.csv": {
+          "identical_bytes": true,
+          "sha256": "b313fabfacaf48cd076ddf871ddb703c8ac27c6055f1e6d5404706b89ec227b3"
+        },
+        "path_results.csv": {
+          "identical_bytes": true,
+          "sha256": "e3ea4ccfa2613827475eabddc637949dd829799b417679b6c67a7c03ebe49c8a"
+        },
+        "metrics.csv": {
+          "identical_bytes": true,
+          "sha256": "ae8da7c2a6d0c22d50c50c3ffe7259628066ec5e7ddd26c9edd498b4c2e495eb"
+        },
+        "paired_comparisons.csv": {
+          "identical_bytes": true,
+          "sha256": "786f73643f73e845c6c5fcdc31835874e98c4ef3abb05d4070556f871066d496"
+        },
+        "scalar_checks.csv": {
+          "identical_bytes": true,
+          "sha256": "f67f72a666390fade3641541cb71daf8b914dd02646c0a38b51e64b94d0bd445"
+        },
+        "ledger.csv": {
+          "identical_bytes": true,
+          "sha256": "9d052080b6d7aaa2e86fc91fbb7bafb500608a296e7f3c41996bed0f64795457"
+        },
+        "summary.json": {
+          "identical_bytes": true,
+          "sha256": "644340a27a5ee415b7acebb97434d21a4dfd44e7ec75c293505e2e48c761bd18"
+        },
+        "bootstrap_fields.json": {
+          "identical_bytes": true,
+          "sha256": "5f4840d4008d3db5f1a5565dde19b05a73b9c21bf9649e79a1e99a2832fe7d3a"
+        },
+        "paths.npy": {
+          "identical_bytes": true,
+          "sha256": "21b8dc3ac50293f6ef79b95edf3bf0ef5eea43aa9bd70bfc4bde09df72b9fd11"
+        },
+        "times.npy": {
+          "identical_bytes": true,
+          "sha256": "219127781193e5da721f59b1ea3c8c5ec726acaa57d8538a1984136c2601f19c"
+        },
+        "bootstrap_statistics.npy": {
+          "identical_bytes": true,
+          "sha256": "fb08e9b5ae6f3aff94742913b7429723b855c87d0dac6c2ac5d1b74c7ffb27ce"
+        }
+      }
+    }
+  }
+}

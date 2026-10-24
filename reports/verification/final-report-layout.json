@@ -1,0 +1,67 @@
+{
+  "pdf_sha256": "71f52b85887d55a4c4036c03d15f13e93469f68bc04d850ee2a7e7e4e7190479",
+  "pages": [
+    {
+      "page": 1,
+      "body_bottom_points": 550.3624021600001,
+      "render_sha256": "465b775480f83ec6eba2f8eee7a5c21e9a638159b43de35f1a58bbf7395a419d"
+    },
+    {
+      "page": 2,
+      "body_bottom_points": 686.1835936,
+      "render_sha256": "cd97e4503062f8eb3f97cbc926bbaad8595399e8e56403b151f2c4ff6ff75371"
+    },
+    {
+      "page": 3,
+      "body_bottom_points": 576.8624021600001,
+      "render_sha256": "495abff08a261b112e497ae04b21c8bc0a51b5fd644bb8655754492589d61812"
+    },
+    {
+      "page": 4,
+      "body_bottom_points": 677.8624021600001,
+      "render_sha256": "4aeb4230dd2629f0aae093958f23832abf1a0aa0be46f42d2f8fa6a91534eb13"
+    },
+    {
+      "page": 5,
+      "body_bottom_points": 718.3624021600001,
+      "render_sha256": "b20f57ebeaff616c175f17190551835176ea8c0aaaa847b76cc1c899063c09fc"
+    },
+    {
+      "page": 6,
+      "body_bottom_points": 656.86240216,
+      "render_sha256": "ec706b8e2cd9b1d9665d3f291f7c517b1e7bb60c11219795aadb99369a857edd"
+    },
+    {
+      "page": 7,
+      "body_bottom_points": 704.8624021600001,
+      "render_sha256": "b34a9adc34651c7181d5749d963a26329ad1080a26b8ca0c10463a86d8954b74"
+    },
+    {
+      "page": 8,
+      "body_bottom_points": 713.8624021600001,
+      "render_sha256": "032e21fc5f35b0effdbbd2c86752bbeda96e1e2fb62bdc2b8974e1debf9dcfbb"
+    },
+    {
+      "page": 9,
+      "body_bottom_points": 769.4046785200001,
+      "render_sha256": "be8e4fbf5885812aa4af7974bfa629f183924a62db8e825bc71779ebe266710b"
+    },
+    {
+      "page": 10,
+      "body_bottom_points": 681.36240216,
+      "render_sha256": "40c0597b6d1f0ed0d9e2f0d004e57847663941c89ba087923f984df1ce98af55"
+    },
+    {
+      "page": 11,
+      "body_bottom_points": 620.30463852,
+      "render_sha256": "44abe92adbb8332f7ea07bd8af9c69af04c7a32495703839393300fe8ba99150"
+    },
+    {
+      "page": 12,
+      "body_bottom_points": 612.80463852,
+      "render_sha256": "626c3a608f45114dac943aef5451410abe5e28e73f25c605b1cce5aeb8b59a97"
+    }
+  ],
+  "visual_review": "All 12 rendered pages inspected; updated/dense pages 2,9,10,11 also inspected individually; no visible layout defects",
+  "review_type": "Author visual and automated document QA; not external investment validation"
+}

@@ -1,0 +1,180 @@
+{
+  "statistics": [
+    "mean_pnl",
+    "standard_deviation",
+    "rmse",
+    "pnl_q05",
+    "pnl_median",
+    "pnl_q95"
+  ],
+  "cells": [
+    {
+      "scenario_id": 0,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 0,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 1,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 1,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 2,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 2,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 3,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 3,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 4,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 4,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 5,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 5,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 6,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 6,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 7,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 7,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 8,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 8,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 9,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 9,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 10,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 10,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 11,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 11,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 12,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 12,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 13,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 13,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 14,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 14,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 15,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 15,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 16,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 16,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 17,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 17,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 18,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 18,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 19,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 19,
+      "premium_basis": "common_reference"
+    },
+    {
+      "scenario_id": 20,
+      "premium_basis": "model"
+    },
+    {
+      "scenario_id": 20,
+      "premium_basis": "common_reference"
+    }
+  ]
+}

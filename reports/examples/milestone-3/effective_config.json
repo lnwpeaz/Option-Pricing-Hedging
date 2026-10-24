@@ -1,0 +1,20 @@
+{
+  "market": {
+    "spot": 100.0,
+    "maturity_years": 1.0,
+    "risk_free_rate": 0.05,
+    "physical_drift": 0.08,
+    "volatility": 0.2
+  },
+  "simulation": {
+    "paths": 10000,
+    "steps_per_year": 252,
+    "seed": 421021,
+    "batch_size": 512,
+    "preview_paths": 12
+  },
+  "validation": {
+    "repeats": 32,
+    "paths": 2000
+  }
+}

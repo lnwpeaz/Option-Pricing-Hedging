@@ -1,0 +1,91 @@
+{
+  "scope": "Report artifact/statistic QA; not market validation or new source replay",
+  "studies": {
+    "milestone-5": {
+      "integrity": {
+        "config_integrity": true,
+        "artifact_integrity": true,
+        "artifact_count": 18,
+        "source_recoverable": true,
+        "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+      },
+      "paths": 10000,
+      "raw_rows": 210000,
+      "metric_cells": 42,
+      "paired_rows": 102,
+      "maximum_absolute_numeric_difference": 5.279110482092619e-13,
+      "point_statistics_and_saved_CI_endpoints_recomputed": true,
+      "path_ids_and_financed_cost_identities": true,
+      "initial_premiums_checked_by_payoff_integration": true
+    },
+    "contract-review/hedging": {
+      "integrity": {
+        "config_integrity": true,
+        "artifact_integrity": true,
+        "artifact_count": 18,
+        "source_recoverable": true,
+        "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+      },
+      "paths": 3000,
+      "raw_rows": 63000,
+      "metric_cells": 42,
+      "paired_rows": 102,
+      "maximum_absolute_numeric_difference": 3.6692870963861424e-13,
+      "point_statistics_and_saved_CI_endpoints_recomputed": true,
+      "path_ids_and_financed_cost_identities": true,
+      "initial_premiums_checked_by_payoff_integration": true
+    }
+  },
+  "other_integrity": {
+    "milestone-2b": {
+      "config_integrity": true,
+      "artifact_integrity": true,
+      "artifact_count": 13,
+      "source_recoverable": false,
+      "note": "Historical hash-only run: exact old source is not recoverable from this record alone"
+    },
+    "research-validation": {
+      "config_integrity": true,
+      "artifact_integrity": true,
+      "artifact_count": 11,
+      "source_recoverable": true,
+      "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+    },
+    "milestone-4": {
+      "config_integrity": true,
+      "artifact_integrity": true,
+      "artifact_count": 10,
+      "source_recoverable": true,
+      "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+    },
+    "contract-review/pricing": {
+      "config_integrity": true,
+      "artifact_integrity": true,
+      "artifact_count": 6,
+      "source_recoverable": true,
+      "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+    },
+    "contract-review/monte-carlo": {
+      "config_integrity": true,
+      "artifact_integrity": true,
+      "artifact_count": 14,
+      "source_recoverable": true,
+      "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+    }
+  },
+  "contract_review_call_put_integrals_passed": true,
+  "contract_review_monte_carlo": {
+    "raw_estimates": 1728,
+    "cells": 54,
+    "point_metrics_recomputed": true
+  },
+  "input_sha256": {
+    "reports/examples/milestone-2b/summary.json": "61f9362c15443810d7bbd6459afb39a15ef604636d8dc77254853cec2adb3b27",
+    "reports/examples/research-validation/summary.json": "a08c58f844a5cddcd0ca060d2a2e74b0ea3367e6395b410379e7751d89078d71",
+    "reports/examples/milestone-5/metrics.csv": "ac86a0cb49a9b4e4a4f1c9624e8f371279f27d3168a01288670a33cd337d5e37",
+    "reports/examples/contract-review/pricing/baseline.csv": "35a5791f422444264bbd61be7dca9419d402e0cf56bb2602e214b2416da09f54",
+    "reports/examples/contract-review/monte-carlo/summary.json": "d9cb0b057e007d6e560e478dc4fd68b5a449e7448cfe0aa8c60b6d0f9c00f5b4",
+    "reports/examples/contract-review/monte-carlo/metrics.csv": "f91c30cff36c0959f10c5fe50d9edf39ff9eb467bf5b770c80dfef6eb0964ec7",
+    "reports/examples/contract-review/monte-carlo/estimates.csv": "f12d12dd750c5f488921be0c36ba40791029407d669f83d52e92f3f8ea6ea151"
+  }
+}

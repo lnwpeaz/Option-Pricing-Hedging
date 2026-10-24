@@ -1,0 +1,17 @@
+{
+  "requested_estimates": 480,
+  "completed_estimates": 480,
+  "failed_estimates": 0,
+  "scramble_rows": 3072,
+  "metric_cells": 15,
+  "reference_dominated_cells": 15,
+  "reference_status_counts": {
+    "unavailable": 1
+  },
+  "numerical_acceptance": {
+    "all_estimates_completed": true,
+    "all_internal_checks_passed": true,
+    "all_references_available": false
+  },
+  "uncertainty_note": "Approximate normal intervals for pseudo-MC; finite-R Student-t intervals for RQMC. Empirical reference bands are not rigorous bounds."
+}

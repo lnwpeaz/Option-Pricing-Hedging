@@ -1,0 +1,91 @@
+{
+  "imported_module_path": "/Users/robot/Documents/option-pricing-hedging-lab/reports/verification/asian-execution/recovered-2/src/option_hedging/experiments/asian_study.py",
+  "runtime_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "QuantLib": "1.44"
+  },
+  "original_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 18,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "replay_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 18,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "source_hashes_identical": true,
+  "numerical_acceptance_identical": true,
+  "comparisons": [
+    {
+      "file": "estimates.csv",
+      "byte_identical": true,
+      "original_sha256": "73e2d5a3fdf06a354bd784d0fe208acc215a40f4ff34f43b6eaac8ce6933d057",
+      "replay_sha256": "73e2d5a3fdf06a354bd784d0fe208acc215a40f4ff34f43b6eaac8ce6933d057"
+    },
+    {
+      "file": "scramble_estimates.csv",
+      "byte_identical": true,
+      "original_sha256": "fd993739f455026541122b04bdccdf7cdc5a8e1395b757ea0d4c1b7119c534f9",
+      "replay_sha256": "fd993739f455026541122b04bdccdf7cdc5a8e1395b757ea0d4c1b7119c534f9"
+    },
+    {
+      "file": "reference_checks.csv",
+      "byte_identical": true,
+      "original_sha256": "e69b23921c30943e777c1c9a2d821909c3131c05eeb53dfa7b1fa311b1f09a9d",
+      "replay_sha256": "e69b23921c30943e777c1c9a2d821909c3131c05eeb53dfa7b1fa311b1f09a9d"
+    },
+    {
+      "file": "reference_summary.csv",
+      "byte_identical": true,
+      "original_sha256": "f6e60dcba5cee114d08c706823f7b9cc4c48c206a29240ba10307ceb164dcd00",
+      "replay_sha256": "f6e60dcba5cee114d08c706823f7b9cc4c48c206a29240ba10307ceb164dcd00"
+    },
+    {
+      "file": "metrics.csv",
+      "byte_identical": true,
+      "original_sha256": "9e4d2ea1a3d196f188f96272ccafc8172197619e28ac13b88c71d8b30a9aff25",
+      "replay_sha256": "9e4d2ea1a3d196f188f96272ccafc8172197619e28ac13b88c71d8b30a9aff25"
+    },
+    {
+      "file": "paired_comparisons.csv",
+      "byte_identical": true,
+      "original_sha256": "3c505693a5d9e45f409b66db0d813ceb12b823e304bef25b8de1194322e9a5ba",
+      "replay_sha256": "3c505693a5d9e45f409b66db0d813ceb12b823e304bef25b8de1194322e9a5ba"
+    },
+    {
+      "file": "summary.json",
+      "byte_identical": true,
+      "original_sha256": "7d879305456a5236f7fb1c4744927c47340be6183aacee3150665cd0687007a4",
+      "replay_sha256": "7d879305456a5236f7fb1c4744927c47340be6183aacee3150665cd0687007a4"
+    },
+    {
+      "file": "effective_config.json",
+      "byte_identical": true,
+      "original_sha256": "a3df998afcd83f19a99891f36ff8f5f521650ef326584f6e55f8b2cab4c82d9e",
+      "replay_sha256": "a3df998afcd83f19a99891f36ff8f5f521650ef326584f6e55f8b2cab4c82d9e"
+    },
+    {
+      "file": "input_config.toml",
+      "byte_identical": true,
+      "original_sha256": "540cc8fde80ab6db1658db1c85867ec93723e08ef2ac2ee9519d4fff10a585e8",
+      "replay_sha256": "540cc8fde80ab6db1658db1c85867ec93723e08ef2ac2ee9519d4fff10a585e8"
+    }
+  ],
+  "exclusions": [
+    "stage_timings.csv",
+    "benchmark.csv",
+    "allocations.csv",
+    "figures",
+    "manifest artifact hashes for excluded observations"
+  ],
+  "note": "Numerical replay in recorded local environment; not a portability or authenticity guarantee."
+}

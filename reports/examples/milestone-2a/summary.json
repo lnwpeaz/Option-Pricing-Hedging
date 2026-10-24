@@ -1,0 +1,25 @@
+{
+  "largest_grid_steps": 1001,
+  "results": {
+    "call": {
+      "kind": "call",
+      "steps": 1001,
+      "tree_price": 10.452334690294695,
+      "analytic_price": 10.45058357218553,
+      "signed_error": 0.001751118109165617,
+      "absolute_error": 0.001751118109165617,
+      "elapsed_seconds": 0.002830999990692362
+    },
+    "put": {
+      "kind": "put",
+      "steps": 1001,
+      "tree_price": 5.575277140366403,
+      "analytic_price": 5.573526022256936,
+      "signed_error": 0.0017511181094667094,
+      "absolute_error": 0.0017511181094667094,
+      "elapsed_seconds": 0.002882417000364512
+    }
+  },
+  "interpretation": "CRR error may oscillate across step counts; no monotonic convergence claim",
+  "timing_note": "One observation per grid/kind; timings vary and are not a performance benchmark"
+}

@@ -1,0 +1,26 @@
+# Predeclared second use case: hypothetical six-month short European call.
+# Model volatility is an input; true scenario volatility is an assumed stress.
+# Reference sigma=25% fixes the premium basis when comparing hedge policies.
+[market]
+spot = 120.0
+strike = 125.0
+maturity_years = 0.5
+risk_free_rate = 0.04
+physical_drift = 0.06
+true_volatility = 0.30
+dividend_yield = 0.0
+[simulation]
+paths = 3000
+steps_per_year = 252
+seed = 20261025
+batch_size = 256
+scalar_validation_paths = 12
+[hedge_grid]
+rebalance_every_steps = [1, 5]
+one_way_cost_bps = [0.0, 2.0, 10.0]
+hedge_volatility = [0.20, 0.25, 0.30]
+reference_volatility = 0.25
+[uncertainty]
+bootstrap_repeats = 500
+bootstrap_batch_size = 16
+seed = 20261026

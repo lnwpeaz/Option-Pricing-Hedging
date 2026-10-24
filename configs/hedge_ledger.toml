@@ -1,0 +1,21 @@
+# One explicit illustrative path; no statistical hedge-performance claim.
+# Option volatility is the hedge/model sigma and determines the initial premium.
+[option]
+spot = 100.0
+strike = 100.0
+maturity_years = 1.0
+risk_free_rate = 0.05
+volatility = 0.20
+kind = "call"
+dividend_yield = 0.0
+
+[hedging]
+position = "short_call"
+quantity = 1.0
+rebalance_every_steps = 1
+one_way_cost_bps = 5.0
+liquidate_stock_at_expiry = true
+
+[path]
+times = [0.0, 0.25, 0.5, 0.75, 1.0]
+spots = [100.0, 108.0, 96.0, 112.0, 105.0]

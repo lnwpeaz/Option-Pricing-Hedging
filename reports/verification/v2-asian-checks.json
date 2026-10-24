@@ -1,0 +1,287 @@
+{
+  "verification": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 18,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "estimate_rows": 2880,
+  "scramble_rows": 18432,
+  "qmc_estimates_checked": 1152,
+  "control_pilots_checked": 576,
+  "metric_cells_checked": 90,
+  "paired_comparisons_checked": 90,
+  "numeric_assertions": 32106,
+  "maximum_absolute_differences": {
+    "qmc_price": 3.552713678800501e-15,
+    "qmc_standard_error": 6.591949208711867e-17,
+    "qmc_ci_low": 3.552713678800501e-15,
+    "qmc_ci_high": 3.552713678800501e-15,
+    "work_requested_paths": 0.0,
+    "work_production_paths": 0.0,
+    "work_independent_samples": 0.0,
+    "work_pilot_paths": 0.0,
+    "work_normal_coordinates": 0.0,
+    "work_payoff_evaluations": 0.0,
+    "work_control_payoff_evaluations": 0.0,
+    "work_scrambles": 0.0,
+    "pilot_beta": 2.220446049250313e-15,
+    "reference_price": 0.0,
+    "reference_radius": 0.0,
+    "metric_bias": 3.469446951953614e-18,
+    "metric_rmse": 1.3877787807814457e-17,
+    "metric_empirical_sd": 1.6653345369377348e-16,
+    "metric_mean_reported_se": 2.7755575615628914e-17,
+    "metric_conditional_rmse_low": 1.3877787807814457e-17,
+    "metric_conditional_rmse_high": 2.7755575615628914e-17,
+    "metric_possible_coverage": 0.0,
+    "metric_definite_coverage": 0.0,
+    "metric_requested_count": 0.0,
+    "metric_completed_count": 0.0,
+    "metric_failed_count": 0.0,
+    "metric_zero_se_count": 0.0,
+    "metric_bootstrap_rmse_low": 1.3877787807814457e-17,
+    "metric_bootstrap_rmse_high": 2.7755575615628914e-17,
+    "metric_bootstrap_bias_low": 6.938893903907228e-18,
+    "metric_bootstrap_bias_high": 1.3877787807814457e-17,
+    "metric_bootstrap_sd_low": 1.7932703932910243e-16,
+    "metric_bootstrap_sd_high": 2.0816681711721685e-16,
+    "metric_possible_coverage_ci_low": 0.0,
+    "metric_possible_coverage_ci_high": 0.0,
+    "metric_definite_coverage_ci_low": 0.0,
+    "metric_definite_coverage_ci_high": 0.0,
+    "metric_production_paths_mean": 0.0,
+    "metric_pilot_paths_mean": 0.0,
+    "metric_payoff_evaluations_mean": 0.0,
+    "metric_control_payoff_evaluations_mean": 0.0,
+    "metric_normal_coordinates_mean": 0.0,
+    "metric_rmse_squared_times_production_paths": 9.947598300641403e-14,
+    "metric_rmse_squared_times_total_payoffs": 9.947598300641403e-14,
+    "paired_paired_repeats": 0.0,
+    "paired_mean_price_difference": 1.734723475976807e-18,
+    "paired_rmse_ratio": 2.220446049250313e-16,
+    "paired_rmse_difference": 1.3877787807814457e-17,
+    "paired_undefined_ratio_bootstraps": 0.0,
+    "paired_difference_ci_low": 1.3877787807814457e-17,
+    "paired_difference_ci_high": 1.3877787807814457e-17,
+    "paired_rmse_ratio_ci_low": 2.220446049250313e-16,
+    "paired_rmse_ratio_ci_high": 4.440892098500626e-16,
+    "paired_rmse_difference_ci_low": 2.7755575615628914e-17,
+    "paired_rmse_difference_ci_high": 2.7755575615628914e-17
+  },
+  "total_production_paths": 82575360,
+  "total_pilot_paths": 294912,
+  "total_normal_coordinates": 2387607552,
+  "external_reference_statuses": {
+    "low_precision": 6
+  },
+  "additional_validation": [
+    {
+      "case": "single_geometric_call",
+      "method": "plain",
+      "reference": 10.450583572185565,
+      "macro_repeats": 8,
+      "mean_error": 0.034627559077335945,
+      "empirical_sem": 0.12197296373796558,
+      "intervals_covering_reference": 7,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "single_geometric_call",
+      "method": "antithetic",
+      "reference": 10.450583572185565,
+      "macro_repeats": 8,
+      "mean_error": 0.0015250476582959749,
+      "empirical_sem": 0.06199592323359375,
+      "intervals_covering_reference": 7,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "single_geometric_call",
+      "method": "sobol",
+      "reference": 10.450583572185565,
+      "macro_repeats": 8,
+      "mean_error": -0.0013511834082446939,
+      "empirical_sem": 0.004179280400750204,
+      "intervals_covering_reference": 6,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "single_geometric_call",
+      "method": "sobol_bridge",
+      "reference": 10.450583572185565,
+      "macro_repeats": 8,
+      "mean_error": -0.0013511834082446939,
+      "empirical_sem": 0.004179280400750204,
+      "intervals_covering_reference": 6,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "irregular_geometric_put",
+      "method": "plain",
+      "reference": 4.371352721004057,
+      "macro_repeats": 8,
+      "mean_error": 0.02603378128889844,
+      "empirical_sem": 0.03410377239406611,
+      "intervals_covering_reference": 8,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "irregular_geometric_put",
+      "method": "antithetic",
+      "reference": 4.371352721004057,
+      "macro_repeats": 8,
+      "mean_error": 0.06270564808985046,
+      "empirical_sem": 0.017316300906131076,
+      "intervals_covering_reference": 8,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "irregular_geometric_put",
+      "method": "sobol",
+      "reference": 4.371352721004057,
+      "macro_repeats": 8,
+      "mean_error": 0.0004989154979453403,
+      "empirical_sem": 0.004684406497065926,
+      "intervals_covering_reference": 8,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "irregular_geometric_put",
+      "method": "sobol_bridge",
+      "reference": 4.371352721004057,
+      "macro_repeats": 8,
+      "mean_error": 0.003468010075518002,
+      "empirical_sem": 0.0022377071140465984,
+      "intervals_covering_reference": 8,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "two_fixing_arithmetic_put",
+      "method": "plain",
+      "reference": 9.596148314250708,
+      "macro_repeats": 8,
+      "mean_error": -0.0006128036187789121,
+      "empirical_sem": 0.045542720395367005,
+      "intervals_covering_reference": 8,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "two_fixing_arithmetic_put",
+      "method": "antithetic",
+      "reference": 9.596148314250708,
+      "macro_repeats": 8,
+      "mean_error": 0.0654660173243542,
+      "empirical_sem": 0.011642784761792193,
+      "intervals_covering_reference": 8,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "two_fixing_arithmetic_put",
+      "method": "control",
+      "reference": 9.596148314250708,
+      "macro_repeats": 8,
+      "mean_error": -0.00645061883015785,
+      "empirical_sem": 0.00330018451076966,
+      "intervals_covering_reference": 7,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "two_fixing_arithmetic_put",
+      "method": "sobol",
+      "reference": 9.596148314250708,
+      "macro_repeats": 8,
+      "mean_error": 0.00040806534884119117,
+      "empirical_sem": 0.0016712320240163982,
+      "intervals_covering_reference": 7,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "two_fixing_arithmetic_put",
+      "method": "sobol_bridge",
+      "reference": 9.596148314250708,
+      "macro_repeats": 8,
+      "mean_error": 0.00042848985397725414,
+      "empirical_sem": 0.0017687941467876063,
+      "intervals_covering_reference": 7,
+      "acceptance": "aggregate mean within 6 empirical SEM + 0.001; not all-CI coverage"
+    },
+    {
+      "case": "deterministic",
+      "method": "plain",
+      "price": 3.557748011166289,
+      "status": "deterministic"
+    },
+    {
+      "case": "rare_payoff",
+      "method": "plain",
+      "price": 0.0,
+      "status": "sampled",
+      "diagnostics": [
+        "zero_observed_variance"
+      ]
+    },
+    {
+      "case": "deterministic",
+      "method": "antithetic",
+      "price": 3.557748011166289,
+      "status": "deterministic"
+    },
+    {
+      "case": "rare_payoff",
+      "method": "antithetic",
+      "price": 0.0,
+      "status": "sampled",
+      "diagnostics": [
+        "zero_observed_variance"
+      ]
+    },
+    {
+      "case": "deterministic",
+      "method": "control",
+      "price": 3.557748011166289,
+      "status": "deterministic"
+    },
+    {
+      "case": "rare_payoff",
+      "method": "control",
+      "status": "explicit_numerical_limit",
+      "diagnostic": "positive currency value underflow"
+    },
+    {
+      "case": "deterministic",
+      "method": "sobol",
+      "price": 3.557748011166289,
+      "status": "deterministic"
+    },
+    {
+      "case": "rare_payoff",
+      "method": "sobol",
+      "price": 0.0,
+      "status": "sampled",
+      "diagnostics": [
+        "sobol_bits=52",
+        "approximate_student_t_95",
+        "zero_observed_variance"
+      ]
+    },
+    {
+      "case": "deterministic",
+      "method": "sobol_bridge",
+      "price": 3.557748011166289,
+      "status": "deterministic"
+    },
+    {
+      "case": "rare_payoff",
+      "method": "sobol_bridge",
+      "price": 0.0,
+      "status": "sampled",
+      "diagnostics": [
+        "sobol_bits=52",
+        "approximate_student_t_95",
+        "zero_observed_variance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "original": "/Users/robot/Documents/option-pricing-hedging-lab/reports/examples/research-validation",
+  "recovered_source": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/quality-source-replay",
+  "package_origin": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/quality-source-replay/src/option_hedging/__init__.py",
+  "command": [
+    "/Users/robot/Documents/option-pricing-hedging-lab/.venv/bin/python",
+    "-W",
+    "error",
+    "-m",
+    "option_hedging.experiments.validation_demo",
+    "--config",
+    "input_config.toml",
+    "--output-dir",
+    "replay-output"
+  ],
+  "original_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 11,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "replay_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 11,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "numerical_comparisons": {
+    "reference_checks.csv": {
+      "identical_bytes": true,
+      "sha256": "781a14d672933cd48c1a892598341652651ce566819b3c17ab87256ace0a0685",
+      "rows": 144
+    },
+    "tree_checks.csv": {
+      "identical_bytes": true,
+      "sha256": "bae4e461bd870bc51ecf205617013b45caeb7c1d21f34082d055765bdf51af3e",
+      "rows": 432
+    },
+    "mc_estimates.csv": {
+      "identical_bytes": true,
+      "sha256": "66977845434ab5a6de28aaf60f84e1a814c403f9abc4c0b275ca4bde073c49e6",
+      "rows": 13824
+    },
+    "mc_metrics.csv": {
+      "identical_bytes": true,
+      "sha256": "d7d71be043076ffe0f245af438809d986a4153cd94f5fa9ab84acf7fac480c48",
+      "rows": 432
+    },
+    "summary.json": {
+      "identical_bytes": true,
+      "sha256": "a08c58f844a5cddcd0ca060d2a2e74b0ea3367e6395b410379e7751d89078d71"
+    }
+  },
+  "scope": "Actual archived-source replay using current recorded environment; no cross-platform claim",
+  "source_snapshot_sha256": "a67c313e4ffa7f77449190642a327bc4dfdc0489afecfa508bf0c51f21fe6358",
+  "independent_raw_data_checks": {
+    "metric_cells": 432,
+    "seed_keys_unique": true,
+    "scenario_joins": true,
+    "rmse_rms_se_coverage_zero_se_recomputed": true
+  }
+}

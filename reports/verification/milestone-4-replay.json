@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "original": "/Users/robot/Documents/option-pricing-hedging-lab/reports/examples/milestone-4",
+  "recovered_source": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/hedge-source-replay",
+  "package_origin": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/hedge-source-replay/src/option_hedging/__init__.py",
+  "command": [
+    "/Users/robot/Documents/option-pricing-hedging-lab/.venv/bin/python",
+    "-W",
+    "error",
+    "-m",
+    "option_hedging.experiments.hedge_demo",
+    "--config",
+    "input_config.toml",
+    "--output-dir",
+    "replay-output"
+  ],
+  "source_snapshot_sha256": "a74e371dfdc88c812b63344951c976b3b94f9aec9a1ad076a12c1f510f72d035",
+  "original_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 10,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "replay_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 10,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "numerical_comparisons": {
+    "path.csv": {
+      "identical_bytes": true,
+      "sha256": "5a3353cb280f7675674d9f2118fb045cf1d7dfc8fac040794c832ecbadbcafff"
+    },
+    "ledger.csv": {
+      "identical_bytes": true,
+      "sha256": "bbcac0e22da424742495774d4ae8a70ba608c7b6be0c371240babb40db923c03"
+    },
+    "unhedged_ledger.csv": {
+      "identical_bytes": true,
+      "sha256": "c6ecf44e41bca818918707d148c45130edd09e066d1b74b180d9d4e5176b1a35"
+    },
+    "accounting_checks.csv": {
+      "identical_bytes": true,
+      "sha256": "3b4f385aa599a24e16af6223c13533806e13b9df7671d914aaad8873d409ac48"
+    },
+    "summary.json": {
+      "identical_bytes": true,
+      "sha256": "90ae28876f404d0a1b77753b1dca8b7cca79c6099c0d53d0a0a29a2add1ee254"
+    }
+  },
+  "independent_cashflow_check": {
+    "arithmetic": "Decimal precision60; independent whole-horizon cash-flow compounding",
+    "max_row_error": "1.02977948027227986617009941572418431072935127E-14",
+    "global_cashflow_error": "2.14670377407327343808951942572529037579971634E-14",
+    "financed_cost_error": "4.217487970809198686267274650771876605983404E-18",
+    "accepted_absolute_tolerance": "1e-10",
+    "passed": true
+  },
+  "scope": "Trusted archived-source replay under current recorded dependencies; not cross-platform identity"
+}

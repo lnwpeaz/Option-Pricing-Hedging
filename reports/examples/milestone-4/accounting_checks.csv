@@ -1,0 +1,11 @@
+strategy,step,time,cash_residual,stock_residual
+delta_hedged,0,0.0,1.6514567491299204e-15,0.0
+delta_hedged,1,0.25,6.854759815322353e-15,0.0
+delta_hedged,2,0.5,3.0166841247236675e-15,0.0
+delta_hedged,3,0.75,5.30825383648903e-15,0.0
+delta_hedged,4,1.0,-3.469446951953614e-17,0.0
+unhedged,0,0.0,0.0,0.0
+unhedged,1,0.25,0.0,0.0
+unhedged,2,0.5,0.0,0.0
+unhedged,3,0.75,0.0,0.0
+unhedged,4,1.0,0.0,0.0

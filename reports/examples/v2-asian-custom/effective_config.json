@@ -1,0 +1,59 @@
+{
+  "option": {
+    "spot": 120.0,
+    "risk_free_rate": 0.04,
+    "volatility": 0.25,
+    "kind": "put",
+    "averaging": "arithmetic",
+    "dividend_yield": 0.0
+  },
+  "study": {
+    "mode": "custom",
+    "base_date": "2026-10-24",
+    "fixing_times": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "strikes": [
+      125.0
+    ],
+    "production_paths": [
+      4096,
+      16384,
+      65536
+    ],
+    "methods": [
+      "plain",
+      "antithetic",
+      "control",
+      "sobol",
+      "sobol_bridge"
+    ],
+    "repeats": 32,
+    "seed": 20261024,
+    "batch_size": 1024,
+    "pilot_paths": 512,
+    "scrambles": 16,
+    "sobol_bits": 52,
+    "bootstrap_repeats": 2000
+  },
+  "reference": {
+    "external_enabled": true,
+    "quantlib_version": "1.44",
+    "precision_target": 0.0005
+  },
+  "benchmark": {
+    "enabled": false,
+    "paths": 65536,
+    "fixing_count": 52,
+    "strike": 100.0,
+    "batch_sizes": [
+      256,
+      1024,
+      4096
+    ],
+    "repeats": 7,
+    "seed": 20261025
+  }
+}

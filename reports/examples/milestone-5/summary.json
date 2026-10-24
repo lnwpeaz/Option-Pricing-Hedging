@@ -1,0 +1,17 @@
+{
+  "scenario_count": 21,
+  "paths": 10000,
+  "intervals": 252,
+  "path_result_rows": 210000,
+  "metric_cells": 42,
+  "paired_comparison_rows": 102,
+  "bootstrap_repeats": 1000,
+  "scalar_validation_rows": 336,
+  "max_scalar_money_difference": 7.958078640513122e-13,
+  "max_scalar_share_difference": 5.329070518200751e-15,
+  "scalar_validation_passed": true,
+  "scalar_money_tolerance": 1e-08,
+  "scalar_share_tolerance": 1e-10,
+  "representative_path_id": 0,
+  "representative_scenario_id": 7
+}

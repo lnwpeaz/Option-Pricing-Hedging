@@ -1,0 +1,7 @@
+contract_id,fixing_count,strike,price,precision_radius,precision_kind,status,diagnostics,is_exact
+c000,12,90.0,12.909978205398923,0.002650769796968433,empirical_cross_method,low_precision,"[""empirical_radius_exceeds_target""]",False
+c001,12,100.0,6.143964712702823,0.003052628158933146,empirical_cross_method,low_precision,"[""empirical_radius_exceeds_target""]",False
+c002,12,110.0,2.280864869332706,0.003822342318351879,empirical_cross_method,low_precision,"[""empirical_radius_exceeds_target""]",False
+c003,52,90.0,12.651930199310993,0.01203253192122844,empirical_cross_method,low_precision,"[""empirical_radius_exceeds_target""]",False
+c004,52,100.0,5.837290465777731,0.008266986707848645,empirical_cross_method,low_precision,"[""empirical_radius_exceeds_target""]",False
+c005,52,110.0,2.047631015767638,0.004022585154563885,empirical_cross_method,low_precision,"[""empirical_radius_exceeds_target""]",False

@@ -1,0 +1,46 @@
+{
+  "option": {
+    "spot": 100.0,
+    "strike": 100.0,
+    "maturity_years": 1.0,
+    "risk_free_rate": 0.05,
+    "volatility": 0.2,
+    "kind": "call",
+    "dividend_yield": 0.0
+  },
+  "monte_carlo": {
+    "sample_sizes": [
+      1024,
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "strikes": [
+      80.0,
+      100.0,
+      120.0
+    ],
+    "methods": [
+      "plain",
+      "antithetic",
+      "control"
+    ],
+    "repeats": 64,
+    "seed": 43018,
+    "batch_size": 32768,
+    "pilot_paths": 2048,
+    "bootstrap_repeats": 2000
+  },
+  "benchmark": {
+    "n_paths": 262144,
+    "batch_sizes": [
+      512,
+      4096,
+      32768,
+      262144
+    ],
+    "repeats": 9,
+    "seed": 47018
+  }
+}

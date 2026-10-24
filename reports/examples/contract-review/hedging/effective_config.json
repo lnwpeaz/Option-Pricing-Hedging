@@ -1,0 +1,40 @@
+{
+  "market": {
+    "spot": 120.0,
+    "strike": 125.0,
+    "maturity_years": 0.5,
+    "risk_free_rate": 0.04,
+    "physical_drift": 0.06,
+    "true_volatility": 0.3,
+    "dividend_yield": 0.0
+  },
+  "simulation": {
+    "paths": 3000,
+    "steps_per_year": 252,
+    "seed": 20261025,
+    "batch_size": 256,
+    "scalar_validation_paths": 12
+  },
+  "hedge_grid": {
+    "rebalance_every_steps": [
+      1,
+      5
+    ],
+    "one_way_cost_bps": [
+      0.0,
+      2.0,
+      10.0
+    ],
+    "hedge_volatility": [
+      0.2,
+      0.25,
+      0.3
+    ],
+    "reference_volatility": 0.25
+  },
+  "uncertainty": {
+    "bootstrap_repeats": 500,
+    "bootstrap_batch_size": 16,
+    "seed": 20261026
+  }
+}

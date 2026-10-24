@@ -1,0 +1,37 @@
+{
+  "path_points": 5,
+  "path_source": "explicit_config",
+  "hedged": {
+    "strategy": "delta_hedged",
+    "initial_premium": 10.45058357218553,
+    "terminal_payoff": 5.0,
+    "terminal_pnl": -0.6280105786082896,
+    "total_nominal_cost": 0.12411605832188724,
+    "terminal_value_costs": 0.1266765341280009,
+    "stock_turnover": 2.3872659847392677,
+    "traded_notional": 248.23211664377448,
+    "rebalance_decisions": 3,
+    "n_stock_trades": 5
+  },
+  "unhedged": {
+    "strategy": "unhedged",
+    "initial_premium": 10.45058357218553,
+    "terminal_payoff": 5.0,
+    "terminal_pnl": 5.986396449700747,
+    "total_nominal_cost": 0.0,
+    "terminal_value_costs": 0.0,
+    "stock_turnover": 0.0,
+    "traded_notional": 0.0,
+    "rebalance_decisions": 0,
+    "n_stock_trades": 0
+  },
+  "zero_cost_terminal_pnl": -0.5013340444803163,
+  "checks": {
+    "cash_absolute_tolerance": 1e-08,
+    "stock_absolute_tolerance": 1e-12,
+    "max_cash_residual": 6.854759815322353e-15,
+    "max_stock_residual": 0.0,
+    "financed_cost_identity_residual": -2.758904216193514e-14,
+    "passed": true
+  }
+}

@@ -1,0 +1,3 @@
+contract_id,source,engine,level,price,error_estimate,tail_bound,status,diagnostic
+c000,internal,geometric_formula_vs_integral,,7.470667256575025,1.527817162623449e-13,1.2842275773913161e-30,passed,integral_price=7.4706672565750285
+c000,quantlib,availability,,,,,unavailable,external fixing dates do not match ACT/365F contract times

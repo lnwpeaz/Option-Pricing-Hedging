@@ -1,0 +1,112 @@
+{
+  "status": "completed",
+  "experiment": "monte_carlo_research_lab",
+  "created_utc": "2026-10-23T13:28:34.082631+00:00",
+  "config_sha256": "e216d19a2f8a58a4c6a1763ecfd5efcf5ee1ea2d6973c8bb41ed6e180c119e08",
+  "effective_option": {
+    "spot": 120.0,
+    "strike": 125.0,
+    "maturity_years": 0.5,
+    "risk_free_rate": 0.04,
+    "volatility": 0.25,
+    "kind": "call"
+  },
+  "rng": {
+    "bit_generator": "PCG64",
+    "seed_sequence": "[1, kind_id, strike_id, N, repeat, method_id, seed]",
+    "kind_ids": {
+      "call": 0,
+      "put": 1
+    },
+    "method_ids": {
+      "plain": 0,
+      "antithetic": 1,
+      "control": 2
+    },
+    "strike_ids": "zero-based index in effective_config.monte_carlo.strikes",
+    "pilot": "pilot draws precede disjoint production draws within each control stream",
+    "bootstrap": "[20, sorted_metric_group_id, seed]",
+    "benchmark": "normals: [9, seed]; batches: [10, repeat, seed]; warmup/allocation: seed"
+  },
+  "source_hashes": {
+    "__init__.py": "c5b30b9463afb0d8a64a9c0ef9a586dfb197f7ac49d5ebfd632e912084b03941",
+    "analysis/__init__.py": "c9bc39ec85066902bdaf23d5b43676801ccaef3f0d98ab98d83bf73ec1d7547d",
+    "analysis/hedge_report.py": "0bdbae0aa3e9cda9b66c108dfedbf5e6aa7ed309410339dcf7a0fcd42c8e56ca",
+    "analysis/ledger_plots.py": "6fde2d8ee490cd09dbb5e766b66329ad09795c36ffcb946c776d3caac450faf2",
+    "analysis/mc_metrics.py": "055de09d155e0d409f14f53330584ad73531e5e5b76d76b826d82420053a084e",
+    "analysis/mc_plots.py": "30e1bb26d5cdc1ec5bbd36e9de1a0e81460928b62e005921512d5b4a72aa7c4c",
+    "analysis/metrics.py": "a1050fe543a250442559b2cb5c85512810ed480afe85554aa82d2f43d4452a69",
+    "analysis/path_plots.py": "7525556851e9391f3388ae07bf9efe4261c46376e3ff5c8b63de7e8cae5a2ac0",
+    "analysis/path_statistics.py": "01754031aab65a46d2db490965068d79db29c0456a478fa04e54e62be4f7b4c5",
+    "analysis/plots.py": "0fcf56ed0e5586be3382573a61af0b5c9cd20e4a385ead0e1007a0cd720cd1ab",
+    "analysis/validation_metrics.py": "dafa4297921cc5df22d4c1c3bc61cddcc84eb895d3e12adbf8f2cbda0c0c4094",
+    "analysis/validation_plots.py": "a2db4fad17ece10e7eae3160a5fd6e8d7393303a751c1bf7e7e504e77d4e3e2c",
+    "contracts.py": "09c92eec09079ea3d1e886ed25e9c12197edd9a89cd9fa9f3444b2414ace163e",
+    "experiments/__init__.py": "cf107b6fe427772dbb057d8dfcfe0a40e2a52c4c3debfb23d7eaf9bfa52707f4",
+    "experiments/convergence_demo.py": "d4715d7998640f961289282c76fac7a7d7ae9f6076346982778816e98dde585a",
+    "experiments/hedge_demo.py": "b144615c8206fa277f441e380d6f4e9cc6344840938e0b0e047d6fcb90145fda",
+    "experiments/mc_benchmarks.py": "d9e548d4b0a3fca8af1ea79aacafca596e9f619777cdf0d5bd8d959769bab9a3",
+    "experiments/monte_carlo_demo.py": "8937eda609219c72a050d2d8f22aa452f89729dcf68cc7d05475cc5197e545bb",
+    "experiments/paths_demo.py": "a0d69af9dffa61dcf0afd3ca9e3d2290c6c6ad2605bb3420043fdd33abe50a46",
+    "experiments/pricing_demo.py": "c3edeea2ca2e2a62c484bc83bc7c168f20d3d27e6a8b323fc0e5cd4418b2f87e",
+    "experiments/provenance.py": "42de087a5c2cb7c6a1731145c66bfdaefa05c97b9ea32eef687baa23d4abff5e",
+    "experiments/runner.py": "14859e8bd3d96e49ffc573ff09948f7a2f7e18acd4fd976fabf8d9664e2617a5",
+    "experiments/validation_demo.py": "f80a05c33b0d120f5a276cf8b15bbcfa30e0c18f8ccec213deb322ffc00c966b",
+    "experiments/verify_run.py": "bbb5b945961cd4b8028aa670a890e89f253765a04a5ccbd5bfaae4801816e778",
+    "hedging/__init__.py": "16f71032cbbe427c4fcf81be95216778fe5786a072080d2563137c08b243a0d2",
+    "hedging/batch.py": "8f2e8ef12c9310de1ba0699328bef10b9d50bcb3c33cd3df8a634d67d957776d",
+    "hedging/ledger.py": "de1bd54563d23ce0526b1afba4b3368628a2016c0e548642c702877354f203f6",
+    "pricing/__init__.py": "3254adb80877e2e078341932cb653d80d825af5da4a7c8645c91fe9122062de6",
+    "pricing/binomial.py": "6ce3900d01a436fba84b81c3f79e2f9fbd708ea3d730fc1461bc50ff5c5f0abf",
+    "pricing/black_scholes.py": "ea6cdf345cf09557f0fe89707c1c2c8150f9f737cad13c01fb48fcbf1bcf18ac",
+    "pricing/monte_carlo.py": "d3fe291e9de90e6c28edee5119d60d8b8f2d68678ff7c4850c6ae079fab8a96e",
+    "simulation/__init__.py": "5d171e2c869455ff294239b8ce030dee61235c4b993d5397cb6ae53af94ea754",
+    "simulation/gbm.py": "a5bbef06175803c2c231cf62188cbf9913286fc4f654673d3346fa04bb0e4741",
+    "simulation/time_grid.py": "590393890e1cb41bb996308a57bbdb38092b25e65aaca99e864b023a26f04e45",
+    "validation/__init__.py": "e2b4f56ac58926881f1808a19a361a85e99a15e6840b6498b12ccdbc7258eece",
+    "validation/payoff_reference.py": "9ce1c230d2963e064bbb97d19a3ecefdd33a75c68be701a30b54bb896d83313c"
+  },
+  "versions": {
+    "python": "3.13.2",
+    "option_hedging": "0.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "environment": {
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpu_count": 10,
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null
+    },
+    "numpy_build": "numpy_config.txt"
+  },
+  "artifact_sha256": {
+    "RESULTS.md": "93f0298daea39eccfe095db8d2f1dfd92732cd535f986e5ac0d519f9ae1b7aa1",
+    "accuracy.png": "f1c312a69e9e2e77221fa06aabba1a403e536771c44a79c7fcf47602ef8391d8",
+    "batch_benchmark.csv": "225126a0ee0311ba6cac941e0b5754a630fc5f941579743af1c37284241a9869",
+    "calibration.png": "e1ab0f5e0eb4d1a345a81df05b574face23a09a73e4e13cc7781327eec6bb880",
+    "effective_config.json": "b2ea5743c01e7c6c929d0bf8d3a87e978a7314e2191c95061f1e22ae2deb730f",
+    "engineering.png": "438436de0a708f22f945c6a9a6f152efdd624015dcb0f5c08a4be8229f2e18f6",
+    "estimates.csv": "f12d12dd750c5f488921be0c36ba40791029407d669f83d52e92f3f8ea6ea151",
+    "input_config.toml": "e216d19a2f8a58a4c6a1763ecfd5efcf5ee1ea2d6973c8bb41ed6e180c119e08",
+    "kernel_benchmark.csv": "3c3504a6cf920571d27ab9afba04b7d006bd5455a70b07201b5735cad1aaa86b",
+    "metrics.csv": "f91c30cff36c0959f10c5fe50d9edf39ff9eb467bf5b770c80dfef6eb0964ec7",
+    "numpy_config.txt": "3371f05a220f7137c507711749997032bd363104c1d1862edbfe95f15f500e4c",
+    "robustness.png": "9514a9f5cc8bbdbd2132cab027fd59c1bdde458929082e56ec34ca2c95ccd619",
+    "source_snapshot.zip": "e658c553c925952e2084c15d85637fddcf6ee5a277e0becd948b719a6c51bd92",
+    "summary.json": "d9cb0b057e007d6e560e478dc4fd68b5a449e7448cfe0aa8c60b6d0f9c00f5b4"
+  },
+  "source_snapshot": {
+    "filename": "source_snapshot.zip",
+    "sha256": "e658c553c925952e2084c15d85637fddcf6ee5a277e0becd948b719a6c51bd92",
+    "format_version": 1,
+    "entrypoint": "option_hedging.experiments.monte_carlo_demo"
+  }
+}

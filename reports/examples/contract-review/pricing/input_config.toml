@@ -1,0 +1,10 @@
+# Hypothetical contract; no ticker, quote, investment forecast or trade instruction.
+# The pricing demo consumes only [option]. All rates/volatilities are annual.
+[option]
+spot = 120.0
+strike = 125.0
+maturity_years = 0.5
+risk_free_rate = 0.04
+volatility = 0.25
+kind = "call"
+dividend_yield = 0.0

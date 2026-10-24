@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-18T09:34:33.319524+00:00",
+  "experiment": "analytic_pricing_demo",
+  "status": "Model-based analytic sensitivities; no hedge or market-data results",
+  "effective_option": {
+    "spot": 100.0,
+    "strike": 100.0,
+    "maturity_years": 1.0,
+    "risk_free_rate": 0.05,
+    "volatility": 0.2,
+    "kind": "call"
+  },
+  "assumptions": {
+    "dividend_yield": 0,
+    "exercise": "European",
+    "rate": "continuous"
+  },
+  "config_sha256": "69fddd835505ecaffc72b248977a431ea9e562ea521567ec9aebd54f7a58956b",
+  "config_scope": "Only [option] is consumed; other sections are not executed",
+  "source_hashes": {
+    "__init__.py": "7eda583d08d91d520e5dab1d25d5b659d50272a69eebc82ac8dd427fb7b04170",
+    "analysis/__init__.py": "c9bc39ec85066902bdaf23d5b43676801ccaef3f0d98ab98d83bf73ec1d7547d",
+    "analysis/metrics.py": "8833855e6d202e95dbe4d1bf95bf27cafbeafcd91e11ff0b70d66561c50fabf6",
+    "analysis/plots.py": "ec050c36f40aa533ae048f65938ec3472e4d290981aa9a72d2908d38f87fe61a",
+    "contracts.py": "4788dbb1d77b394be20bca8f676a90b776f0dad89fa5786f9cddbb936b187ee3",
+    "experiments/__init__.py": "b5adbc263af497c483d7c4fe3e2cc7540981900f353ca7bfb05d57b445b7c9aa",
+    "experiments/pricing_demo.py": "5327f8c86dd05518035499a6e1bd69c2d22df38010b51281bed6df8bd40f3b5a",
+    "experiments/runner.py": "9a0cdc7173765e76bbca0333fdbb924174a2d14ebbbaf0d461c680adeb9446ee",
+    "hedging/__init__.py": "40594703c41901201077ad3f1ad1aff4adc6396a00ee0d4239731eaac6287368",
+    "hedging/ledger.py": "709b6d9ca2501463cd0af1de9f99b999bfdeeca53693c1531c68bf88c2346168",
+    "pricing/__init__.py": "0b2bd16dce60f12818105e31ecba2281857923e282091f55a10fefa620f2c5f7",
+    "pricing/binomial.py": "481c8dad01eacb487aa417c5a8066bf08f6f5546254052380b0084df4177c0b2",
+    "pricing/black_scholes.py": "ea6cdf345cf09557f0fe89707c1c2c8150f9f737cad13c01fb48fcbf1bcf18ac",
+    "pricing/monte_carlo.py": "7fd885d0fb5dd0f5fe7aadfd35ef9313a8744ff3749bf142ad383bce7e5948fc",
+    "simulation/__init__.py": "5d171e2c869455ff294239b8ce030dee61235c4b993d5397cb6ae53af94ea754",
+    "simulation/gbm.py": "65c9bf30fc8c6be1b02953c14660f593116eb7f6a24ad7473b8fcff005cf9152"
+  },
+  "versions": {
+    "python": "3.13.2",
+    "option_hedging": "0.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

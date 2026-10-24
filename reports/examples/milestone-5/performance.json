@@ -1,0 +1,6 @@
+{
+  "simulation_seconds": 0.025459625001531094,
+  "batch_hedging_seconds": 1.5596302910016675,
+  "scalar_validation_seconds": 0.32175808300235076,
+  "statistics_bootstrap_seconds": 6.711950458000501
+}

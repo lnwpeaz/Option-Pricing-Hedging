@@ -1,0 +1,2 @@
+# Optional independent reference engines used by the V2-A research acceptance.
+QuantLib==1.44

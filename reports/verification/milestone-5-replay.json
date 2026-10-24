@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "original": "/Users/robot/Documents/option-pricing-hedging-lab/reports/examples/milestone-5",
+  "recovered_source": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/paired-source-replay",
+  "package_origin": "/Users/robot/Documents/option-pricing-hedging-lab/reports/runs/paired-source-replay/src/option_hedging/__init__.py",
+  "command": [
+    "/Users/robot/Documents/option-pricing-hedging-lab/.venv/bin/python",
+    "-W",
+    "error",
+    "-m",
+    "option_hedging.experiments.runner",
+    "--config",
+    "input_config.toml",
+    "--output-dir",
+    "replay-output"
+  ],
+  "source_snapshot_sha256": "2c8159ca1ae2f363f79e7e46f3c9fdb9767b136f4a63a6e5ad369b2e2bf0b479",
+  "original_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 18,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "replay_integrity": {
+    "config_integrity": true,
+    "artifact_integrity": true,
+    "artifact_count": 18,
+    "source_recoverable": true,
+    "note": "Archived source/config bytes verified; execution and environment must be checked separately"
+  },
+  "numerical_comparisons": {
+    "scenarios.csv": {
+      "identical_bytes": true,
+      "sha256": "e0c466531f80662e46bdd2c401ff5f78169b5c1ffa30252a2765ab1813a02c13"
+    },
+    "path_results.csv": {
+      "identical_bytes": true,
+      "sha256": "1a4bdbe2795813a8e2e8f89f8f6c8ad2e406160b6afe57bd28cab35b02c98a43"
+    },
+    "metrics.csv": {
+      "identical_bytes": true,
+      "sha256": "ac86a0cb49a9b4e4a4f1c9624e8f371279f27d3168a01288670a33cd337d5e37"
+    },
+    "paired_comparisons.csv": {
+      "identical_bytes": true,
+      "sha256": "69ac29c0cc291dc8b388ea5d904e98fab21460015ebdf7c7b23ad5e7744b3606"
+    },
+    "scalar_checks.csv": {
+      "identical_bytes": true,
+      "sha256": "935ef02140eabf896ad757a9c87172fba35fee2ba14e3bfb1ede5e2fd4f78b54"
+    },
+    "ledger.csv": {
+      "identical_bytes": true,
+      "sha256": "0cc8cd2602b1a939cc32613c7b1f4e395a3305a4c7acdac4f7d3e60694129a70"
+    },
+    "summary.json": {
+      "identical_bytes": true,
+      "sha256": "5152882bcff5b067ed4fad9f5f63ecd0b89b8d6575ecf7452b929d9ed910a20f"
+    },
+    "bootstrap_fields.json": {
+      "identical_bytes": true,
+      "sha256": "5f4840d4008d3db5f1a5565dde19b05a73b9c21bf9649e79a1e99a2832fe7d3a"
+    },
+    "paths.npy": {
+      "identical_bytes": true,
+      "sha256": "4e6ac51c11e4277c510e02fd90443e6745532ae36ccae7ff5f9433bddd81d635"
+    },
+    "times.npy": {
+      "identical_bytes": true,
+      "sha256": "de1ce0023a619a0253376333206e5bd56ca75624e1d4242e1af3362e03e83d28"
+    },
+    "bootstrap_statistics.npy": {
+      "identical_bytes": true,
+      "sha256": "dad37df121b678f9eb0aefa768af3f45c6b06b399ff87c2ff80bcab4fdedce59"
+    }
+  },
+  "independent_checks": {
+    "raw_rows": 210000,
+    "metric_cells": 42,
+    "paired_rows": 102,
+    "all_metric_CIs_recomputed": true,
+    "shared_bootstrap_draws_recomputed": 16,
+    "premium_decomposition": true,
+    "initial_prices_independent_quadrature": true,
+    "path_ids_complete_aligned": true,
+    "pathwise_financed_cost_identity": true
+  },
+  "scope": "Current-environment model-study replay, not live portfolio or cross-platform validation"
+}
